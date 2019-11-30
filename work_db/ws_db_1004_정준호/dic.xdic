@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tm:TermDictionary xmlns:tm="http://exerd.com/term-model" version="1.1">
+  <term name="도서번호" physicalName="isbn"/>
+  <term name="도서명" physicalName="title"/>
+  <term name="저자" physicalName="author"/>
+  <term name="출판사" physicalName="publisher"/>
+  <term name="회원번호" physicalName="cnum"/>
+  <term name="회원명" physicalName="cname"/>
+  <term name="회원연락처" physicalName="cphone"/>
+  <term name="대여시작일" physicalName="lend_sdate"/>
+  <term name="대여반납일" physicalName="lend_edate"/>
+  <term name="실제반납일" physicalName="lend_rdate"/>
+  <term name="대여권수" description="" physicalName="book_cnt" physicalDescription="" tag="//@tag.0"/>
+  <term name="대여번호" description="" physicalName="no" physicalDescription="" tag="//@tag.0"/>
+  <tag name="다이어그램_용어수집" description="이 용어는 다이어그램에서 용어 수집도구를 사용하여 등록한 것입니다."/>
+</tm:TermDictionary>

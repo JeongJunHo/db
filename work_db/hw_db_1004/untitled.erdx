@@ -1,0 +1,154 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<e:Document xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:e="http://exerd.tomato.com/model" UUID="Document_nYm8UOaBEemYPdJaZl8xSA" activeBusinessArea="BArea_nYnjYOaBEemYPdJaZl8xSA" activeSchema="Schema_nYnjY-aBEemYPdJaZl8xSA" version="2.5.7.20190719-1507" productId="com.tomato.db.db2" openedDiagrams="Diagram_nYnjYeaBEemYPdJaZl8xSA">
+  <relationManager>
+    <relation key="FKCGroup_KwEuTuaEEemYPdJaZl8xSA">
+      <value foreignKeyColumnGroup="FKCGroup_KwEuTuaEEemYPdJaZl8xSA"/>
+    </relation>
+    <relation key="FKCGroup_KwEubuaEEemYPdJaZl8xSA">
+      <value foreignKeyColumnGroup="FKCGroup_KwEubuaEEemYPdJaZl8xSA" identifying="true"/>
+    </relation>
+    <relation key="FKCGroup_KwEucuaEEemYPdJaZl8xSA">
+      <value foreignKeyColumnGroup="FKCGroup_KwEucuaEEemYPdJaZl8xSA" identifying="true"/>
+    </relation>
+  </relationManager>
+  <configuration termFilePath="/hw_db_1004/dic.xdic">
+    <domainDefinition UUID="DDefinition_nYm8UeaBEemYPdJaZl8xSA">
+      <domain UUID="Domain_nYm8UuaBEemYPdJaZl8xSA" name="문자" suggestedDataType="VARCHAR(255)">
+        <domain UUID="Domain_nYm8U-aBEemYPdJaZl8xSA" name="주민등록번호" suggestedDataType="VARCHAR(13)"/>
+        <domain UUID="Domain_nYm8VOaBEemYPdJaZl8xSA" name="주소"/>
+        <domain UUID="Domain_nYm8VeaBEemYPdJaZl8xSA" name="웹주소"/>
+        <domain UUID="Domain_nYm8VuaBEemYPdJaZl8xSA" name="전화번호" suggestedDataType="VARCHAR(30)"/>
+        <domain UUID="Domain_nYm8V-aBEemYPdJaZl8xSA" name="이메일" suggestedDataType="VARCHAR(40)"/>
+        <domain UUID="Domain_nYm8WOaBEemYPdJaZl8xSA" name="이름" suggestedDataType="VARCHAR(50)"/>
+      </domain>
+      <domain UUID="Domain_nYm8WeaBEemYPdJaZl8xSA" name="숫자" suggestedDataType="INTEGER">
+        <domain UUID="Domain_nYm8WuaBEemYPdJaZl8xSA" name="금액"/>
+      </domain>
+      <domain UUID="Domain_nYm8W-aBEemYPdJaZl8xSA" name="일시" suggestedDataType="DATE"/>
+      <domain UUID="Domain_nYm8XOaBEemYPdJaZl8xSA" name="객체" suggestedDataType="BLOB">
+        <domain UUID="Domain_nYm8XeaBEemYPdJaZl8xSA" name="이미지" suggestedDataType="LONG VARGRAPHIC"/>
+        <domain UUID="Domain_nYm8XuaBEemYPdJaZl8xSA" name="오디오" suggestedDataType="BLOB"/>
+      </domain>
+    </domainDefinition>
+    <viewSettingsPreset name="eXERD 기본" showAltTableName="false">
+      <cellsToShow>name</cellsToShow>
+      <cellsToShow>domain</cellsToShow>
+      <cellsToShow>dataType</cellsToShow>
+    </viewSettingsPreset>
+    <viewSettingsPreset name="엔티티 모드" showAltTableName="false">
+      <cellsToShow>name</cellsToShow>
+      <cellsToShow>domain</cellsToShow>
+    </viewSettingsPreset>
+    <viewSettingsPreset name="E-R 개요 모드" columnFilter="tableOnly" showTableComment="true">
+      <cellsToShow>name</cellsToShow>
+      <cellsToShow>domain</cellsToShow>
+      <cellsToShow>dataType</cellsToShow>
+    </viewSettingsPreset>
+    <viewSettingsPreset showColumnHeader="true" name="논리/물리 동시편집">
+      <cellsToShow>name</cellsToShow>
+      <cellsToShow>oppositeModeName</cellsToShow>
+      <cellsToShow>domain</cellsToShow>
+      <cellsToShow>dataType</cellsToShow>
+      <cellsToShow>nullable</cellsToShow>
+    </viewSettingsPreset>
+  </configuration>
+  <businessAreas UUID="BArea_nYnjYOaBEemYPdJaZl8xSA" logicalName="기본 업무영역" physicalName="DEFAULT_AREA" tables="Table_tU8-8eaBEemYPdJaZl8xSA Table_KwEuUOaEEemYPdJaZl8xSA Table_KwEuWOaEEemYPdJaZl8xSA Table_KwEuYuaEEemYPdJaZl8xSA">
+    <diagrams UUID="Diagram_nYnjYeaBEemYPdJaZl8xSA" logicalName="다이어그램" physicalName="diagram">
+      <diagramEntry xsi:type="e:TableDiagram" UUID="TDiagram_tU8-8OaBEemYPdJaZl8xSA" location="Point(600.0, 285.0)" table="Table_tU8-8eaBEemYPdJaZl8xSA"/>
+      <diagramEntry xsi:type="e:TableDiagram" UUID="TDiagram_KwEuQOaEEemYPdJaZl8xSA" location="Point(89.0, 115.0)" table="Table_KwEuUOaEEemYPdJaZl8xSA"/>
+      <diagramEntry xsi:type="e:TableDiagram" UUID="TDiagram_KwEuQeaEEemYPdJaZl8xSA" location="Point(598.0, 95.0)" table="Table_KwEuWOaEEemYPdJaZl8xSA"/>
+      <diagramEntry xsi:type="e:TableDiagram" UUID="TDiagram_KwEuQuaEEemYPdJaZl8xSA" location="Point(89.0, 335.0)" table="Table_KwEuYuaEEemYPdJaZl8xSA"/>
+      <viewSettings showColumnHeader="true">
+        <cellsToShow>name</cellsToShow>
+        <cellsToShow>oppositeModeName</cellsToShow>
+        <cellsToShow>domain</cellsToShow>
+        <cellsToShow>dataType</cellsToShow>
+        <cellsToShow>nullable</cellsToShow>
+      </viewSettings>
+      <printSettings marginTop="10" marginRight="10" marginBottom="10" marginLeft="10" paperKind="A4" paperOrientation="landscape" header="${FILE} - ${DIAGRAM} - ${PAGENUM} / ${FULLPAGE}" footter="${YEAR}-${MONTH}-${DAY} ${HOUR}:${DAY}"/>
+    </diagrams>
+  </businessAreas>
+  <databaseModel UUID="DModel_nYnjYuaBEemYPdJaZl8xSA" logicalName="새 데이터베이스" physicalName="NEW_DATABASE">
+    <schema UUID="Schema_nYnjY-aBEemYPdJaZl8xSA" logicalName="내 스키마" physicalName="MY_SCHEMA">
+      <tables UUID="Table_tU8-8eaBEemYPdJaZl8xSA" logicalName="주문관리" physicalName="ORDER">
+        <columns UUID="Column_KwEuQ-aEEemYPdJaZl8xSA" logicalName="주문번호" physicalName="o_no" dataType="INTEGER">
+          <memberships UUID="MEntry_KwEuROaEEemYPdJaZl8xSA" key="PKCGroup_KwEuTOaEEemYPdJaZl8xSA">
+            <value xsi:type="e:PrimaryKeyMembership" UUID="PKMembership_KwEuReaEEemYPdJaZl8xSA" group="PKCGroup_KwEuTOaEEemYPdJaZl8xSA" entryIndex="0"/>
+          </memberships>
+        </columns>
+        <columns UUID="Column_KwEuRuaEEemYPdJaZl8xSA" logicalName="고객번호" physicalName="c_no" derivedPhysicalName="true" derivedLogicalName="true" dataType="INTEGER">
+          <memberships UUID="MEntry_KwEuR-aEEemYPdJaZl8xSA" key="FKCGroup_KwEuTuaEEemYPdJaZl8xSA">
+            <value xsi:type="e:ColumnReference" UUID="CReference_KwEuSOaEEemYPdJaZl8xSA" group="FKCGroup_KwEuTuaEEemYPdJaZl8xSA" parentColumn="Column_KwEuWeaEEemYPdJaZl8xSA"/>
+          </memberships>
+        </columns>
+        <columns UUID="Column_7JijgOgeEemYY-FOZuNg-A" logicalName="주문일자" physicalName="o_orderdate" dataType="DATETIME"/>
+        <columns UUID="Column_KwEuSeaEEemYPdJaZl8xSA" logicalName="주문금액" physicalName="o_price" dataType="INTEGER"/>
+        <columns UUID="Column_nIVjMOgXEemYY-FOZuNg-A" logicalName="결제일자" physicalName="o_paydate" dataType="DATETIME"/>
+        <columns UUID="Column_KwEuSuaEEemYPdJaZl8xSA" logicalName="결제여부" physicalName="o_ispay" dataType="BOOLEAN"/>
+        <columns UUID="Column_epiK4OgXEemYY-FOZuNg-A" logicalName="배송일자" physicalName="o_deliverydate" dataType="DATETIME"/>
+        <columns UUID="Column_KwEuS-aEEemYPdJaZl8xSA" logicalName="배송여부" physicalName="o_isdelivery" dataType="BOOLEAN"/>
+        <columnGroups xsi:type="e:PrimaryKeyColumnGroup" UUID="PKCGroup_KwEuTOaEEemYPdJaZl8xSA" logicalName="주문관리 기본키" physicalName="PK_ORDER" derivedPhysicalName="true" derivedLogicalName="true">
+          <primaryKeyConstraint UUID="PKConstraint_KwEuTeaEEemYPdJaZl8xSA" logicalName="주문관리 기본키" physicalName="PK_ORDER" derivedPhysicalName="true" derivedLogicalName="true"/>
+        </columnGroups>
+        <columnGroups xsi:type="e:ForeignKeyColumnGroup" UUID="FKCGroup_KwEuTuaEEemYPdJaZl8xSA" logicalName="고객 -> 주문관리" physicalName="FK_CUSTOMER_TO_ORDER" derivedPhysicalName="true" derivedLogicalName="true" parentColumnGroup="PKCGroup_KwEuYOaEEemYPdJaZl8xSA">
+          <foreignKeyConstraint UUID="FKConstraint_KwEuT-aEEemYPdJaZl8xSA" logicalName="고객 -> 주문관리" physicalName="FK_CUSTOMER_TO_ORDER" derivedPhysicalName="true" derivedLogicalName="true"/>
+        </columnGroups>
+      </tables>
+      <tables UUID="Table_KwEuUOaEEemYPdJaZl8xSA" logicalName="상품" physicalName="PRODUCT">
+        <columns UUID="Column_KwEuUeaEEemYPdJaZl8xSA" logicalName="상품코드" physicalName="p_code" dataType="VARCHAR(100)">
+          <memberships UUID="MEntry_KwEuUuaEEemYPdJaZl8xSA" key="PKCGroup_KwEuVuaEEemYPdJaZl8xSA">
+            <value xsi:type="e:PrimaryKeyMembership" UUID="PKMembership_KwEuU-aEEemYPdJaZl8xSA" group="PKCGroup_KwEuVuaEEemYPdJaZl8xSA" entryIndex="0"/>
+          </memberships>
+        </columns>
+        <columns UUID="Column_KwEuVOaEEemYPdJaZl8xSA" logicalName="상품명" physicalName="p_name" dataType="VARCHAR(50)"/>
+        <columns UUID="Column_KwEuVeaEEemYPdJaZl8xSA" logicalName="가격" physicalName="p_price" dataType="INTEGER"/>
+        <columnGroups xsi:type="e:PrimaryKeyColumnGroup" UUID="PKCGroup_KwEuVuaEEemYPdJaZl8xSA" logicalName="상품 기본키" physicalName="PK_PRODUCT" derivedPhysicalName="true" derivedLogicalName="true">
+          <primaryKeyConstraint UUID="PKConstraint_KwEuV-aEEemYPdJaZl8xSA" logicalName="상품 기본키" physicalName="PK_PRODUCT" derivedPhysicalName="true" derivedLogicalName="true"/>
+        </columnGroups>
+      </tables>
+      <tables UUID="Table_KwEuWOaEEemYPdJaZl8xSA" logicalName="고객" physicalName="CUSTOMER">
+        <columns UUID="Column_KwEuWeaEEemYPdJaZl8xSA" logicalName="고객번호" physicalName="c_no" dataType="INTEGER">
+          <memberships UUID="MEntry_KwEuWuaEEemYPdJaZl8xSA" key="PKCGroup_KwEuYOaEEemYPdJaZl8xSA">
+            <value xsi:type="e:PrimaryKeyMembership" UUID="PKMembership_KwEuW-aEEemYPdJaZl8xSA" group="PKCGroup_KwEuYOaEEemYPdJaZl8xSA" entryIndex="1"/>
+          </memberships>
+        </columns>
+        <columns UUID="Column_KwEuXOaEEemYPdJaZl8xSA" logicalName="고객명" physicalName="c_name" dataType="VARCHAR(30)"/>
+        <columns UUID="Column_KwEuXeaEEemYPdJaZl8xSA" logicalName="고객주소" physicalName="c_addr" dataType="TEXT"/>
+        <columns UUID="Column_KwEuXuaEEemYPdJaZl8xSA" logicalName="고객연락처1" physicalName="c_hp1" dataType="VARCHAR(20)"/>
+        <columns UUID="Column_KwEuX-aEEemYPdJaZl8xSA" logicalName="고객연락처2" physicalName="c_hp2" dataType="VARCHAR(20)"/>
+        <columnGroups xsi:type="e:PrimaryKeyColumnGroup" UUID="PKCGroup_KwEuYOaEEemYPdJaZl8xSA" logicalName="고객 기본키" physicalName="PK_CUSTOMER" derivedPhysicalName="true" derivedLogicalName="true">
+          <primaryKeyConstraint UUID="PKConstraint_KwEuYeaEEemYPdJaZl8xSA" logicalName="고객 기본키" physicalName="PK_CUSTOMER" derivedPhysicalName="true" derivedLogicalName="true"/>
+        </columnGroups>
+      </tables>
+      <tables UUID="Table_KwEuYuaEEemYPdJaZl8xSA" logicalName="주문상세" physicalName="ORDER_DETAIL">
+        <columns UUID="Column_KwEuY-aEEemYPdJaZl8xSA" logicalName="주문번호" physicalName="o_no" derivedLogicalName="true" dataType="INTEGER">
+          <memberships UUID="MEntry_KwEuZOaEEemYPdJaZl8xSA" key="FKCGroup_KwEubuaEEemYPdJaZl8xSA">
+            <value xsi:type="e:ColumnReference" UUID="CReference_KwEuZeaEEemYPdJaZl8xSA" group="FKCGroup_KwEubuaEEemYPdJaZl8xSA" parentColumn="Column_KwEuQ-aEEemYPdJaZl8xSA"/>
+          </memberships>
+          <memberships UUID="MEntry_KwEuZuaEEemYPdJaZl8xSA" key="PKCGroup_KwEucOaEEemYPdJaZl8xSA">
+            <value xsi:type="e:PrimaryKeyMembership" UUID="PKMembership_KwEuZ-aEEemYPdJaZl8xSA" group="PKCGroup_KwEucOaEEemYPdJaZl8xSA" entryIndex="0"/>
+          </memberships>
+        </columns>
+        <columns UUID="Column_KwEuaOaEEemYPdJaZl8xSA" logicalName="상품코드" physicalName="p_code" derivedPhysicalName="true" derivedLogicalName="true" dataType="VARCHAR(100)">
+          <memberships UUID="MEntry_KwEuaeaEEemYPdJaZl8xSA" key="FKCGroup_KwEucuaEEemYPdJaZl8xSA">
+            <value xsi:type="e:ColumnReference" UUID="CReference_KwEuauaEEemYPdJaZl8xSA" group="FKCGroup_KwEucuaEEemYPdJaZl8xSA" parentColumn="Column_KwEuUeaEEemYPdJaZl8xSA"/>
+          </memberships>
+          <memberships UUID="MEntry_KwEua-aEEemYPdJaZl8xSA" key="PKCGroup_KwEucOaEEemYPdJaZl8xSA">
+            <value xsi:type="e:PrimaryKeyMembership" UUID="PKMembership_KwEubOaEEemYPdJaZl8xSA" group="PKCGroup_KwEucOaEEemYPdJaZl8xSA" entryIndex="0"/>
+          </memberships>
+        </columns>
+        <columns UUID="Column_KwEubeaEEemYPdJaZl8xSA" logicalName="수량" physicalName="od_cnt" dataType="INTEGER"/>
+        <columnGroups xsi:type="e:ForeignKeyColumnGroup" UUID="FKCGroup_KwEubuaEEemYPdJaZl8xSA" logicalName="주문관리 -> 주문상세" physicalName="FK_ORDER_TO_ORDER_DETAIL" derivedPhysicalName="true" derivedLogicalName="true" parentColumnGroup="PKCGroup_KwEuTOaEEemYPdJaZl8xSA">
+          <foreignKeyConstraint UUID="FKConstraint_KwEub-aEEemYPdJaZl8xSA" logicalName="주문관리 -> 주문상세" physicalName="FK_ORDER_TO_ORDER_DETAIL" derivedPhysicalName="true" derivedLogicalName="true"/>
+        </columnGroups>
+        <columnGroups xsi:type="e:PrimaryKeyColumnGroup" UUID="PKCGroup_KwEucOaEEemYPdJaZl8xSA" logicalName="주문상세 기본키" physicalName="PK_ORDER_DETAIL" derivedPhysicalName="true" derivedLogicalName="true">
+          <primaryKeyConstraint UUID="PKConstraint_KwEuceaEEemYPdJaZl8xSA" logicalName="주문상세 기본키" physicalName="PK_ORDER_DETAIL" derivedPhysicalName="true" derivedLogicalName="true"/>
+        </columnGroups>
+        <columnGroups xsi:type="e:ForeignKeyColumnGroup" UUID="FKCGroup_KwEucuaEEemYPdJaZl8xSA" logicalName="상품 -> 주문상세" physicalName="FK_PRODUCT_TO_ORDER_DETAIL" derivedPhysicalName="true" derivedLogicalName="true" parentColumnGroup="PKCGroup_KwEuVuaEEemYPdJaZl8xSA">
+          <foreignKeyConstraint UUID="FKConstraint_KwEuc-aEEemYPdJaZl8xSA" logicalName="상품 -> 주문상세" physicalName="FK_PRODUCT_TO_ORDER_DETAIL" derivedPhysicalName="true" derivedLogicalName="true"/>
+        </columnGroups>
+      </tables>
+    </schema>
+  </databaseModel>
+  <sharedIcons UUID="SIcons_nYnjZOaBEemYPdJaZl8xSA"/>
+</e:Document>

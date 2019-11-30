@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tm:TermDictionary xmlns:tm="http://exerd.com/term-model" version="1.1">
+  <term name="주문번호" description="" physicalName="o_no" physicalDescription="" tag="//@tag.0"/>
+  <term name="고객번호" description="" physicalName="c_no" physicalDescription="" tag="//@tag.0"/>
+  <term name="주문금액" description="" physicalName="o_price" physicalDescription="" tag="//@tag.0"/>
+  <term name="결제여부" description="" physicalName="o_ispay" physicalDescription="" tag="//@tag.0"/>
+  <term name="배송여부" description="" physicalName="o_isdelivery" physicalDescription="" tag="//@tag.0"/>
+  <term name="상품코드" description="" physicalName="p_code" physicalDescription="" tag="//@tag.0"/>
+  <term name="고객연락처2" description="" physicalName="c_hp2" physicalDescription="" tag="//@tag.0"/>
+  <term name="수량" description="" physicalName="od_cnt" physicalDescription="" tag="//@tag.0"/>
+  <term name="상품명" description="" physicalName="p_name" physicalDescription="" tag="//@tag.0"/>
+  <term name="가격" description="" physicalName="p_price" physicalDescription="" tag="//@tag.0"/>
+  <term name="고객명" description="" physicalName="c_name" physicalDescription="" tag="//@tag.0"/>
+  <term name="고객주소" description="" physicalName="c_addr" physicalDescription="" tag="//@tag.0"/>
+  <term name="고객연락처1" description="" physicalName="c_hp1" physicalDescription="" tag="//@tag.0"/>
+  <tag name="다이어그램_용어수집" description="이 용어는 다이어그램에서 용어 수집도구를 사용하여 등록한 것입니다."/>
+</tm:TermDictionary>
